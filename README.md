@@ -1,8 +1,8 @@
 # Exoplanet Analytics
 
-A small, reproducible analytics pipeline for the NASA Exoplanet Archive. It loads the Planetary Systems Composite Parameters table, cleans and stores it in DuckDB, runs three analyses, and writes one self-contained HTML report.
+This is a small, reproducible analytics pipeline for the NASA Exoplanet Archive. It loads the Planetary Systems Composite Parameters table, cleans and stores it in DuckDB, runs three analyses, and writes one self-contained HTML report.
 
-The three questions:
+The three analytic questions:
 
 1. **How did discoveries accumulate?** Planets per year by discovery method, computed in SQL.
 2. **Is there a gap in the sizes of small planets?** A search for a dip in the radius distribution of short-period planets between 1 and 4 Earth radii, with a bootstrap interval for where the dip sits, repeated on planets with precisely measured radii as a robustness check.
